@@ -36,5 +36,35 @@ The Sqoop password must also be encrypted
           (c) SQOOP password file must be encypted controlled with proper permission ,so 
               not everyone can access the client data stored in RDBMS  as per SLA
               
+ 
+>>  CLIENT REQUIREMENTS :
+
+          • Find out the list of users who have at least 2 loan installments pending.
+     
+          • Find the list of users who have a healthy credit card but outstanding loan account.
+          
+>> The following analysis done from survey ﬁles:
+
+     • How many surveys got an average rating of less than 3, provided at least 10 distinct users gave the rating 
+     • Find the details of the survey which received the minimum rating. The condition is that 
+       the survey must have been rated by at least 20 users
+
+     >> The organization also has lots of e-mails stored in small ﬁles. The metadata about the e-mail is present 
+        in an XML ﬁle  email_metadata.xml
+        Read the XML ﬁle for the e-mail structure and pack all the e-mail ﬁles in HDFS.
+        
+        • Which is the longest running e-mail? 
+        • Find out the list of e-mails that went unanswered.
+
+ 
+
+
+
+          
+
+ 
+ 
+ 
+              
     
     
