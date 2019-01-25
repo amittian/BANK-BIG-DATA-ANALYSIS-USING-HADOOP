@@ -24,6 +24,10 @@ The Sqoop password must also be encrypted
 (c) CRONTAB -- in order  to automate SQOOP JOB for incremental import 
 
 (d) HIVE -- Creating EXTERNAL HIVE table  and storing data in apropiate format ORC (recommanded ) for analysis 
+
+(e) TABLEAU -- for Data Visualization ; should familiar with how to connect TABLEAU with HIVE table 
+
+(f) R Programming -- Exploratory data Analysis
      
     NOTE : The use of ORC files improves performance when HIVE is reading , writing and 
            processing the data from large table
