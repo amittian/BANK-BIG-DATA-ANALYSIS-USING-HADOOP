@@ -25,6 +25,7 @@ The Sqoop password must also be encrypted
 
 (d) HIVE -- Creating EXTERNAL HIVE table  and storing data in apropiate format ORC (recommanded ) for analysis 
      
-    NOTE : The use of ORC files improves performance when HIVE is reading , writing and processing the data from large table
+    NOTE : The use of ORC files improves performance when HIVE is reading , writing and 
+           processing the data from large table
     
     
