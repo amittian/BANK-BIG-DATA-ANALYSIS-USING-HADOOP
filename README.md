@@ -27,5 +27,14 @@ The Sqoop password must also be encrypted
      
     NOTE : The use of ORC files improves performance when HIVE is reading , writing and 
            processing the data from large table
+           
+ >> BACKEND and UN-NOTICED EFFORTS 
+ 
+          (a) written Java code for encryption / decryption of data before/after analysis ( MUST DONE) as per SLA
+          (b) written Python code in order to covert small XML email files in to structured format and stored in HIVE 
+             table for further analysis 
+          (c) SQOOP password file must be encypted controlled with proper permission ,so 
+              not everyone can access the client data stored in RDBMS  as per SLA
+              
     
     
