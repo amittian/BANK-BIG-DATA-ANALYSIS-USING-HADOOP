@@ -19,7 +19,7 @@ The Sqoop password must also be encrypted
 
 (a) MYSQL -- must have access of DBs where Data are residing ,should familiar with Ad-Hoc analysis .
 
-(b) SQOOP -- Data import(incremental) should happen every 2 minutes 
+(b) SQOOP -- Data import(incremental) should happen every 10 minutes 
 
 (c) CRONTAB -- in order  to automate SQOOP JOB for incremental import 
 
