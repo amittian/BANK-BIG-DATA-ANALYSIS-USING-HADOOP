@@ -17,17 +17,17 @@ The Sqoop password must also be encrypted
 
 >> TOOLS & TECHNOLOGIES USED TO ACCOMPLISH THE TASKS 
 
-(a) MYSQL -- must have access of DBs where Data are residing ,should familiar with Ad-Hoc analysis .
+(a) MYSQL -- must have access of DBs where Data are residing ,should familiar with Ad-Hoc analysis 
 
 (b) SQOOP -- Data import(incremental) should happen every 10 minutes 
 
-(c) CRONTAB -- in order  to automate SQOOP JOB for incremental import 
+(c) UNIX / CRONTAB -- in order  to automate SQOOP JOB for incremental import 
 
-(d) HIVE -- Creating EXTERNAL HIVE table  and storing data in apropiate format ORC (recommanded ) for analysis 
+(d) HIVE -- Creating EXTERNAL HIVE table and storing data in apropiate format ORC (recommanded ) for analysis 
 
 (e) TABLEAU -- for Data Visualization ; should familiar with how to connect TABLEAU with HIVE table 
 
-(f) R Programming -- Exploratory data Analysis
+(f) R Programming -- Exploratory Data Analysis
      
     NOTE : The use of ORC files improves performance when HIVE is reading , writing and 
            processing the data from large table
@@ -39,8 +39,7 @@ The Sqoop password must also be encrypted
              table for further analysis 
           (c) SQOOP password file must be encypted controlled with proper permission ,so 
               not everyone can access the client data stored in RDBMS  as per SLA
-              
- 
+               
 >>  CLIENT REQUIREMENTS :
 
           • Find out the list of users who have at least 2 loan installments pending.
